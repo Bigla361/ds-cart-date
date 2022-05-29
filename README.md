@@ -1,2 +1,2 @@
-# disc-date
-Get the date your GameCube, Wii, or Wii U disc was manufactured.
+# ds-cart-date
+Get the date your DS or 3DS cart was manufactured.
