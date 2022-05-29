@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Nintendo Disc Date</title>
+        <title>Nintendo DS Cart Date</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     </head>
     <body>
         <div class="section">
             <div class="row center">
-                <h3>Nintendo Disc Date</h3>
-                <p>This outputs the date your GameCube, Wii, or Wii U disc was manufactured.</p>
-                <p>To use, put in the 8 character code on the back of your disc.</p>
+                <h3>Nintendo DS Cart Date</h3>
+                <p>This outputs the date your DS or 3DS cart was manufactured.</p>
+                <p>To use, put in the 8 character code on the back of your cart.</p>
             </div>
             <div class="row center">
                 <div class="input-field col s6 offset-s3">
@@ -22,7 +22,7 @@
                 <h5><div id="result"></div></h5>
             </div>
             <div class="row center">
-                <h6>Also check out the <a href="https://wiiremote.rc24.xyz/">Wii Remote Date</a> tool as well.</h6>
+                <h6>Also check out the <a href="https://disc.rc24.xyz/">orignal disc date</a> tool as well.</h6>
             </div>
             <div class="row center">
                 <h6>Area circled in yellow: the 8-digit code you run through this tool.</h6>
@@ -72,7 +72,7 @@
 
             date = "Made in " + location + "<br>";
             date += "Production Date: " + year + "/" + month + "/" + day + "<br>";
-            date += "Disc Batch: " + productionRun;
+            date += "Cart Batch: " + productionRun;
 
             if (month == "??") {
                 date += "<br><br>The month entered is incorrect.";
